@@ -1,7 +1,7 @@
 <div class="header" style="display: flex">
   <div class="info">
     <h1>Vincent, Chao Xu</h1>
-    <p>📞+86 132-5016-2623&#65372;📩<a href="mailto:chao.xu.19@ucl.ac.uk">chao.xu.19@ucl.ac.uk</a>&#65372;📍Shenzhen, Guangdong</p>
+    <p>Tel: +86 132-5016-2623&#65372;E-mail: <a href="mailto:chao.xu.19@ucl.ac.uk">chao.xu.19@ucl.ac.uk</a>&#65372;Address: Shenzhen, Guangdong</p>
     <p>WeChat：chaor2020&#65372;Website：<a href="https://chaoxu2020.github.io/">Resume of Chao Xu</a></p>
   </div>
 </div>
@@ -44,7 +44,7 @@
 **TTS Research Engineer**
 - Led TTS voice data collection, encompassing voice talent screening, audio data recording and annotation
 - Developed tools for automated data processing; managed a Git repo for code maintenance and updates
-- Developed text databases, establishing specifications for data annotation and providing high-quality data for training
+- Developed databases, establishing specifications for data annotation and providing high-quality data for training
 - Designed evaluation standards for voice cloning project and developed GUI tools for similarity evaluation
 - Participated projects：Chatting Style TTS, Cantonese Female TTS, Multi-emotional Flagship Female TTS
 
@@ -62,24 +62,28 @@
     <h3>Chatting Style TTS (Embedded)</h3> <span style="text-align: right">2024.05 - 2024.08</span>
 </div>
 
-- Contributed to the collection of natural speech dialogue recordings, utilizing open-source VAD, ASR and LLM tools to extract and proofread recording text
-- Designed suprasegmental features for training, including laughter and breaths; classified and annotated recording data while creating multiple experimental groups for effect evaluation
+- Contributed to the collection of natural speech dialogue recordings, utilizing open-source VAD, ASR and LLM tools to establish SOP and workflow for data processing
+- Accessing open-source APIs using Python to automatically proofread training data with 85% accuracy
+- Designed new suprasegmental features for training, including laughter and breaths, with the upgraded model scoring 0.3 higher in naturalness in MOS test
 
 <div style="display: flex; justify-content: space-between;">
     <h3>Cantonese Female TTS</h3> <span style="text-align: right">2023.12 - 2024.05</span>
 </div>
 
-- Collected and cleaned open-source Cantonese corpora for recording, utilizing LLM tools to expand the Cantonese corpus
-- Supervised Cantonese recordings, annotated voice data; optimized rhythm features and correcting G2P dictionary
-- Setup annotation specifications; the final TTS model achieved a MOS that exceeded that of Microsoft's embedded model after multiple rounds of iterative optimization
+- Collected, cleaned and expanded open-source Cantonese corpora for recording with automated Python and LLM tools
+- Supervised Cantonese recordings, annotated voice data; optimized rhythm features and correcting G2P dictionary for Front-End
+- Setup annotation specifications; the final embedded TTS model achieved a MOS scoring 0.5 higher than that of Microsoft after multiple rounds of iterative optimization
+
+<br>
+<br>
 
 <div style="display: flex; justify-content: space-between;">
     <h3>Flagship Female TTS (Multi-emotional) </h3> <span style="text-align: right">2022.03 - 2022.10</span>
 </div>
 
-- Designed TTS recording scripts and utilized crawlers to collect and clean text data, including in-vehicle scenarios, user dialogues and multiple emotions in both Chinese and English.
-- Updated data annotation specifications, such as Erhua sounds, while adding features like emotion labels and designing comparative experimental group evaluations.
-- The MOS of the final released model was on par with that of Microsoft after multiple rounds of optimization.
+- Designed and categorized TTS recording scripts and utilized Python to collect and clean text data, including in-vehicle scenarios, user dialogues and multiple emotions in both Chinese and English.
+- Updated data annotation specifications, such as Erhua sounds, prosodic features and emotion labels, with release test increasing 5% in accuracy of pronunciation and prosody
+- The MOS of the final released model was 0.1 higher than that of Microsoft after multiple rounds of optimization.
 
 
 
@@ -143,7 +147,14 @@
 
 ## Skills
 
-- Software: **Git**, **Praat**, Label Studio, Docker, Linux, DOS, SPSS, GenAI tools (ChatGPT/DeepSeek)
-- Scripting/Markup language: **Python**, **PraatScripting**, LaTeX, MarkDown, HTML5
-- Language Proficiency: Mandarin (native), Cantonese (nearly native), English (IELTS 7), Japanese (JLPT N1), Korean (Duolingo)
+### Language Proficiency
+- Mandarin (native), Cantonese (nearly native), English (IELTS 7), Japanese (JLPT N1), Korean (Duolingo)
+
+### Software
+- Phonetics: **Praat** (phonetic analysis), **PraatScripting** (develop automated Praat tools)
+- Developing: **Python (data processing & analysis)**
+- Operating systems: Linux & DOS commands (batch processing)
+- Typesetting: LaTeX (report writing), MarkDown, HTML5 (website and presentation)
+- GenAI tools: ChatGPT/DeepSeek/... (search and documenting)
+- Other: **Git (codes & data management)**, **LabelStudio** (data annotation), Docker
 
